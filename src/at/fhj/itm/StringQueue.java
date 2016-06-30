@@ -7,7 +7,8 @@ import java.util.NoSuchElementException;
 /**
  * 
  * @author Damad
- *Adds the element obj to the queue. 
+ * 
+ * Adds the element obj to the queue. 
  * If the addition is successful, the method returns true else false.
  * @param obj
  * @return
@@ -27,7 +28,7 @@ public class StringQueue implements Queue
 	/**
 	 *  Returns the head (first) element and also deletes it. That is, we cannot get it again. 
 	 *  If no element exists (when queue is empty), the method returns null.
-	 * @return
+	 *  @return 
 	 */
 	public boolean offer(String obj) 
 	{
@@ -63,7 +64,7 @@ public class StringQueue implements Queue
 	/**
 	 *  Returns the head element but it does not delete it. That is, we can get it again. 
 	 *  Returns null when the queue is empty. 
-	 * @return
+	 *  @return
 	 */
 	public String remove() 
 	{
