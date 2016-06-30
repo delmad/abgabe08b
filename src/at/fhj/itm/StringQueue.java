@@ -28,6 +28,8 @@ public class StringQueue implements Queue
 	/**
 	 *  Returns the head (first) element and also deletes it. That is, we cannot get it again. 
 	 *  If no element exists (when queue is empty), the method returns null.
+	 *  
+	 *  
 	 *  @return 
 	 */
 	public boolean offer(String obj) 
